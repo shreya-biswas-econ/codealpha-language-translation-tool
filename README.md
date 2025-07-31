@@ -1,5 +1,6 @@
-# codealpha-language-translation-tool
-🌐 A simple web translation tool using Flask, JavaScript, and the MyMemory API. No API key needed. Built for learning and demo purposes.
+# 🌐 Language Translation Tool
+
+A simple web translation tool using Flask, JavaScript, and the MyMemory API. No API key needed. Built for learning and demo purposes.
 
 > ✅ No authentication required  
 > ✅ Built with Flask and JavaScript  
@@ -19,14 +20,15 @@
 
 ## 🧱 Tech Stack
 
-| Layer     | Tech          |
-|-----------|---------------|
-| Backend   | Python (Flask) |
-| Frontend  | HTML, CSS, JS |
-| API       | MyMemory (https://mymemory.translated.net/) |
+| Layer     | Technology            |
+|-----------|------------------------|
+| Backend   | Python (Flask)         |
+| Frontend  | HTML, CSS, JavaScript  |
+| API       | MyMemory Translation API |
 | Optional  | Replit / Render for deployment |
 
 ---
+
 
 ## 🔧 Installation & Setup
 
@@ -35,51 +37,25 @@
 ```bash
 git clone https://github.com/shreya-biswas-econ/codealpha-language-translation-tool.git
 cd language-translation-tool
+```
 
 ### 2. Create a Virtual Environment (Optional)
 
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 ### 3. Install dependencies
 
 ```bash
 pip install -r requirements.txt
-
+```
 ### 4. Run the flask app
 
 ```bash
 python app.py
-
+```
 Open your browser and go to: http://127.0.0.1:5000
-
----
-
-
-## 🗂 Project Structure
-language-translation-tool/
-│
-├── app.py                    # Flask backend
-├── requirements.txt          # Python dependencies
-├── templates/
-│   └── index.html            # Frontend HTML
-├── static/
-│   ├── style.css             # Styling
-│   └── script.js             # JS logic for fetch API
-└── README.md                 # This file
-
-
----
-
-## 🧱 Tech Stack
-
-| Layer     | Technology            |
-|-----------|------------------------|
-| Backend   | Python (Flask)         |
-| Frontend  | HTML, CSS, JavaScript  |
-| API       | MyMemory Translation API |
-| Optional  | Replit / Render for deployment |
 
 ---
 
